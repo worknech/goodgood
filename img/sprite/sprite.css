@@ -1,0 +1,89 @@
+.sprite {
+    background-image: url(../img/sprite.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-btn_main_portfolio_line {
+    width: 41px;
+    height: 53px;
+    background-position: -5px -5px;
+}
+
+.sprite-btn_main_portfolio_square {
+    width: 38px;
+    height: 53px;
+    background-position: -56px -5px;
+}
+
+.sprite-icon_contact_mail {
+    width: 37px;
+    height: 40px;
+    background-position: -104px -5px;
+}
+
+.sprite-icon_contact_mob {
+    width: 37px;
+    height: 42px;
+    background-position: -151px -5px;
+}
+
+.sprite-icon_contact_tel {
+    width: 37px;
+    height: 40px;
+    background-position: -104px -57px;
+}
+
+.sprite-icon_potfolio_button {
+    width: 35px;
+    height: 23px;
+    background-position: -151px -57px;
+}
+
+.sprite-icon_search {
+    width: 39px;
+    height: 36px;
+    background-position: -5px -90px;
+}
+
+.sprite-icon_social_fb {
+    width: 45px;
+    height: 46px;
+    background-position: -151px -90px;
+}
+
+.sprite-icon_social_google {
+    width: 43px;
+    height: 46px;
+    background-position: -5px -146px;
+}
+
+.sprite-icon_social_inst {
+    width: 43px;
+    height: 46px;
+    background-position: -58px -146px;
+}
+
+.sprite-icon_social_vk {
+    width: 43px;
+    height: 46px;
+    background-position: -111px -146px;
+}
+
+.sprite-icon_social_yt {
+    width: 44px;
+    height: 46px;
+    background-position: -198px -5px;
+}
+
+.sprite-icon_twitter {
+    width: 43px;
+    height: 46px;
+    background-position: -206px -61px;
+}
+
+.sprite-icons_contacts {
+    width: 39px;
+    height: 150px;
+    background-position: -259px -5px;
+}

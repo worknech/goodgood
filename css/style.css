@@ -88,8 +88,6 @@ body {
     width: 940px;
     margin: 0 auto;
     padding: 0 10px;
-    
-    outline: 1px dashed #bebebe;
 }
 .clearfix:after {
     content: "";
@@ -99,14 +97,10 @@ body {
 
 .main-header {
     
-    
-    outline: 1px solid red;
 }
 .main-header .logo {
     float: left;
     width: 170px;
-    
-    outline: 1px dashed green;
 }
 .logo img {
     display: inline-block
@@ -128,15 +122,11 @@ body {
 .main-header .search {
     float: right;
     max-width: 90px;
-    
-    outline: 1px dashed green;
 }
 .main-header .main-navigation {
     float: right;
     max-width: 600px;
     margin-right: 80px;
-    
-    outline: 1px dashed green;
 }
 .main-navigation ul {
     margin: 0;
@@ -215,8 +205,6 @@ body {
     height: 490px;
     text-align: center;
     background: #363f48;
-    
-    outline: 1px dashed blue;
 }
 .slider .slide {
     width: 628px;
@@ -256,8 +244,6 @@ body {
 .features {
     position: relative;
     text-align: center;
-    
-    outline: 1px dashed green;
 }
 .features .features-title {
     position: absolute;
@@ -319,8 +305,6 @@ body {
     margin-bottom: 35px;
     background: #2e3e4f;
     border-top: 1px solid #2e3e4f;
-    
-    outline: 1px dashed blue;
 }
 .our-potfolio h2 {
     margin: 0;
@@ -352,8 +336,6 @@ body {
     width: 280px;
     margin-right: 45px;
     margin-bottom: 65px;
-    
-    outline: 1px dashed red;
 }
 .our-potfolio .our-potfolio-item:last-child {
     margin-right: 0;
@@ -361,7 +343,6 @@ body {
 .our-potfolio-item img {
     width: 260px;
     height: 200px;
-    
     border: 10px solid #fff;
 }
 .our-potfolio-item h3 {
@@ -416,8 +397,6 @@ body {
 
 .what-we-offer {
     margin-bottom: 30px;
-    
-    outline: 1px dashed black;
 }
 .what-we-offer h2 {
     width: 700px;
@@ -443,8 +422,6 @@ body {
     float: left;
     width: 205px;
     margin-right: 40px;
-    
-    outline: 1px dashed red;
 }
 .what-we-offer .what-we-offer-item:last-child {
     margin-right: 0;
@@ -482,28 +459,204 @@ body {
     width: 1024px;
     margin: 0 auto;
     text-align: center;
-    
-    outline: 1px dashed black;
+    border-top: 1px solid #d9d9d9;
+}
+.testimonials h2 {
+    margin: 0;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    padding: 0;
+    font-family: 'bebasregular', Arial, sans-serif;
+    font-size: 27px;
+    color: #2190c1;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+.testimonials h2 + p {
+    margin: 0;
+    margin-bottom: 55px;
+    padding: 0 125px;
+    font-family: 'bree_serifregular', Arial, sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+}
+.testimonials .jon {
+    margin: 0;
+    margin-bottom: 25px;
+    padding: 0;
+    font-size: 14px;
+    color: #f98561;
+}
+.jon span {
+    font-weight: 700;
+}
+.jon-items a {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 25px;
+} 
+.jon-items a:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 6px;
+    background: #c1c1c1;
+}
+.jon-items a:nth-child(2):before{
+    background: #f98561;
+}
+.jon-items a:nth-child(2):after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 6px;
+    width: 0;
+    height: 0;
+    margin-left: -6px;
+    border: 6px solid #f98561;
+    border-top-color: #f4f4f4;
+    border-left-color: #f4f4f4;
+    border-right-color: #f4f4f4;
+    background: #f98561;
 }
 
 .main-footer {
-    
+    color: #a3afb2;
+    background: #2e3e4f;
+    border-top: 1px solid #2e3e4f;
 }
+.main-footer a {
+    font-size: 12px;
+    color: #2190c1;
+    text-decoration: none
+}
+.main-footer a:hover {
+    text-decoration: underline;
+}
+.main-footer h3 {
+    margin: 0;
+    margin-top: 40px;
+    margin-bottom: 23px;
+    padding: 0;
+    font-family: 'bebas_neueregular', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #f98561;
+}
+.main-footer p {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    line-height: 20px;
+}
+
 .twitter-feeds {
     float: left;
     width: 210px;
     margin-right: 30px;
+    margin-bottom: 30px;
+}
+.twitter-feeds-item {
+    padding: 11px 0;
+    border-bottom: 1px solid #a3afb2;
+}
+.twitter-feeds-item:nth-child(2) {
+    padding-top: 0;
+}
+.twitter-feeds-item:last-child {
+    border-bottom: none;
 }
 .newsletter {
     float: left;
     width: 245px;
     margin-right: 35px;
+    margin-bottom: 30px;
+}
+.newsletter p {
+    padding-bottom: 11px;
+    border-bottom: 1px solid #a3afb2;
+}
+.newsletter label {
+    display: block;
+    padding: 11px 0;
+    font-size: 13px;
+    color: #2190c1;
+}
+.newsletter input[type="email"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 6px 0;
+    font-size: 13px;
+    line-height: 13px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.newsletter .btn {
+    float: right;
+    padding: 0 18px;
+    font-size: 13px;
+    color: #fff;
+    border: none;
+    outline: none;
+    line-height: 27px;
+    background: #2190c1;
+    border-radius: 3px;
+    cursor: pointer;
 }
 .resent-projects {
     float: left;
     width: 225px;
+    margin-bottom: 30px;
 }
+.resent-projects-item {
+    padding: 11px 0;
+    border-bottom: 1px solid #a3afb2;
+}
+.resent-projects-item:last-child {
+    border-bottom: none;
+}
+.resent-projects-item:nth-child(2) {
+    padding-top: 0;
+}
+.resent-projects-item a:first-child {
+    float: left;
+    margin-right: 10px;
+}
+
 .contact {
     float: right;
     width: 150px;
+    margin-bottom: 30px;
+}
+.contact .contact-item {
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 45px;
+}
+.contact .contact-item:before {
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: 0;
+    width: 37px;
+    background-image: url(../img/sprite.png);
+    background-repeat: no-repeat;
+}
+.contact .tel:before {
+    height: 40px;
+    background-position: -104px -57px;
+}
+.contact .mob:before {
+    height: 42px;
+    background-position: -151px -5px;
+}
+.contact .mail:before {
+    height: 40px;
+    background-position: -104px -5px;
 }

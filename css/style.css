@@ -660,3 +660,37 @@ body {
     height: 40px;
     background-position: -104px -5px;
 }
+
+/*Стили внутренних станиц*/
+.title-pages {
+    margin-bottom: 35px;
+    height: 295px;
+    background-color: #39424a;
+    background-image: url(../img/bg_pages.png);
+}
+.title-pages h1 {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 110px;
+    font-family: 'bebas_neueregular', Arial, sans-serif;
+    font-size: 80px;
+    line-height: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #cccece;
+}
+.portfolio-title h2 {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 40px;
+    font-family: 'bebas_neueregular', Arial, sans-serif;
+    font-size: 80px;
+    line-height: 60px;
+    font-weight: 400;
+    color: #2190c1;
+    text-align: center;
+}
+.portfolio-navigation {
+    
+}

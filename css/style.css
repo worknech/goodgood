@@ -82,6 +82,7 @@ body {
     font-size: 11px;
     line-height: 14px;
     color: #515862;
+    background: #f4f4f4;
 }
 
 .container {
@@ -692,5 +693,214 @@ body {
     text-align: center;
 }
 .portfolio-navigation {
+    margin-bottom: 35px;
+    border-bottom: 1px solid #b3d5e4;
+    border-top: 1px solid #b3d5e4;
+}
+.container-page-nav {
+    width: 1020px;
+    margin: 0 auto;
+}
+.navigation-type {
+    float: left;
+    width: 670px;
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+    border-left: 1px solid #b3d5e4;
+    list-style: none;
+    font-size: 0;
+}
+.navigation-type li {
+    display: inline-block;
+    vertical-align: top;
+    padding: 14px 0;
     
+}
+.navigation-type a {
+    display: inline-block;
+    padding: 6px 32px;
+    border-right: 1px solid #c3c4c4;
+    font-family: 'ubuntu_condensedregular', Arial, sans-serif;
+    font-size: 16px;
+    color: #515862;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 16px;
+}
+.navigation-type .active a,
+.navigation-type a:hover {
+    color: #2190c1;
+}
+.navigation-type li:last-child a {
+    border: none;
+}
+.category {
+    float: right;
+    max-width: 340px;
+    margin: 0;
+    padding: 0;
+    padding-right: 45px;
+    border-right: 1px solid #b3d5e4;
+    list-style: none;
+    font-size: 0;
+}
+.category li {
+    display: inline-block;
+}
+.category li:first-child {
+    margin-right: 15px;
+}
+.category a {
+    display: inline-block;
+    vertical-align: top;
+    padding: 18px 20px;
+    padding-right: 55px;
+    font-family: 'ubuntu_condensedregular', Arial, sans-serif;
+    font-size: 20px;
+    color: #c5f0ff;
+    line-height: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #2190c1;
+}
+.category > li > a:first-child:hover {
+    color: #c5f0ff;
+    background: #2190c1;
+}
+.category .line,
+.category .square {
+    position: relative;
+    width: 40px;
+    padding: 0;
+}
+.category .line:before,
+.category .square:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 53px;
+    background-image: url(../img/sprite.png);
+    background-repeat: no-repeat;
+}
+.category .line:before {
+    background-position: -5px -5px;
+}
+.category .square:before {
+    background-position: -56px -5px;
+}
+.category ul {
+    position: absolute;
+    display: none;
+}
+.category li:first-child:hover > ul {
+    display: block;
+}
+.category li > ul {
+    margin: 0;
+    padding: 0 10px;
+    width: 135px;
+    background: #f98561;
+}
+.category li > ul > li {
+    width: 100%;
+    border-bottom: 1px solid #f9f5d2;
+}
+.category li > ul > li > a {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    font-family: 'ubunturegular', Arial, sans-serif;
+    font-size: 13px;
+    text-transform: none;
+    color: #f9f5d2;
+    line-height: 20px;
+    background: #f98561;
+}
+.category li > ul > li > a:after {
+    content: "o";
+    position: absolute;
+    top: 8px;
+    right: 0;
+}
+.category li > ul > li:hover > a:after {
+    color: #2190c1;
+}
+
+
+.portfolio-item {
+    font-size: 0;
+    line-height: 0;
+}
+.portfolio-item a {
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px;
+    border: 12px solid #fff;
+}
+.portfolio-item a:nth-child(3n) {
+    margin-right: 0;
+}
+.pagination {
+    max-width: 500px;
+    margin: 0 auto;
+    height: 30px;
+    text-align: center;
+    
+}
+.pagination a,
+.pagination .prev-next {
+    display: inline-block;
+    margin: 0 4px;
+    padding: 0;
+    border: none;
+    font-size: 13px;
+    text-decoration: none;
+    color: #f9f5d2;
+    line-height: 30px;
+    background: #aaa;
+    border-radius: 5px;
+}
+.pagination a {
+    min-width: 30px;
+}
+.prev-next a:first-child {
+    padding-left: 30px;
+}
+.prev-next a:last-child {
+    padding-right: 30px;
+}
+.prev-next a:first-child:before {
+    content: "<";
+    margin-right: 10px;
+}
+.prev-next a:last-child:after {
+    content: ">";
+    margin-left: 10px;
+}
+.prev-next:hover,
+.prev-next:hover a {
+    background: #2190c1;
+}
+.prev-next a:hover {
+    color: #aaa;
+}
+.pagination a:hover {
+    color: #aaa;
+    background: #2190c1;
+}
+.pagination a.current {
+    min-width: 26px;
+    border: 2px solid #aaa;
+    color: #aaa;
+    line-height: 26px;
+    background: #fff;
+    cursor: default;
+}
+.pagination a.disabled {
+    color: #cbcbcb;
+    cursor: default;
 }

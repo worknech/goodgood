@@ -797,6 +797,7 @@ body {
 }
 .category li:first-child:hover > ul {
     display: block;
+    z-index: 10;
 }
 .category li > ul {
     margin: 0;
@@ -835,21 +836,86 @@ body {
     font-size: 0;
     line-height: 0;
 }
-.portfolio-item a {
+.potfolio-foto-wraper {
+    position: relative;
     display: inline-block;
     vertical-align: top;
     margin: 15px;
     border: 12px solid #fff;
 }
-.portfolio-item a:nth-child(3n) {
+.potfolio-foto-wraper:nth-child(3n) {
     margin-right: 0;
 }
+.potrfolio-foto-hover {
+    position: absolute;
+    top: 20px;
+    left: 7px;
+    display: none;
+    width: 250px;
+    height: 160px;
+    background: #bebebe;
+}
+.potfolio-foto-wraper:hover
+.potrfolio-foto-hover {
+    display: inline-block;
+}
+.potrfolio-foto-hover h4 {
+    margin: 0;
+    padding: 20px 0;
+    font-family: 'bree_serifregular', Arial, sans-serif;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+}
+.potrfolio-foto-hover p {
+    margin: 0;
+    padding: 0 5px;
+    font-size: 11px;
+    color: #fff;
+    text-align: center;
+    line-height: 15px;
+}
+.potrfolio-foto-hover .btn {
+    position: relative;
+    top: 20px;
+    left: 50%;
+    display: inline-block;
+    margin-left: -70px;
+    padding-left: 65px;
+    padding-right: 25px;
+    font-family: 'bree_serifregular', Arial, sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 40px;
+    background: #bebebe;
+    border: 1px solid #fff;
+    border-radius: 7px;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.5);
+}
+.potrfolio-foto-hover .btn:before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 16px;
+    width: 35px;
+    height: 23px;
+    background-image: url(../img/sprite.png);
+    background-repeat: no-repeat;
+    background-position: -151px -57px;
+}
+.potrfolio-foto-hover .btn:hover {
+    box-shadow: none;
+}
+
 .pagination {
     max-width: 500px;
     margin: 0 auto;
+    margin-top: 45px;
+    margin-bottom: 60px;
     height: 30px;
     text-align: center;
-    
 }
 .pagination a,
 .pagination .prev-next {
@@ -903,4 +969,30 @@ body {
 .pagination a.disabled {
     color: #cbcbcb;
     cursor: default;
+}
+
+
+.cliens-pages {
+    border-bottom: 1px solid #b2d5e4;
+    border-top: 1px solid #b2d5e4;
+}
+.cliens-pages h2 {
+    margin: 0;
+    padding: 0;
+    padding-top: 28px;
+    font-family: 'bebasregular', Arial, sans-serif;
+    font-size: 27px;
+    color: #2190c1;
+    line-height: 30px;
+    text-align: center;
+}
+.cliens-pages a {
+    display: inline-block;
+    margin: 25px 27px;
+}
+.cliens-pages a:last-child {
+    margin-right: 0;
+}
+.page-item {    
+    border-top: none;
 }

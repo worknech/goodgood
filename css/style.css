@@ -996,3 +996,96 @@ body {
 .page-item {    
     border-top: none;
 }
+
+
+/*Стили для about.html*/
+.about-title {
+    text-align: center;
+}
+.about-title h2 {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+    font-family: 'bebas_neueregular', Arial, sans-serif;
+    font-size: 50px;
+    color: #2190c1;
+    line-height: 50px;
+}
+.about-title p {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+    font-size: 13px;
+    line-height: 20px;
+}
+.about-title .strong {
+    font-weight: 700;
+}
+.about-title h1 {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 25px;
+    font-family: 'bebas_neueregular', Arial, sans-serif;
+    font-size: 70px;
+    color: #2190c1;
+    line-height: 100px;
+}
+.page-features {
+    margin-bottom: 45px;
+    border-top: 1px solid #dcdcdc;
+    border-bottom: 5px solid #dcdcdc;
+    text-align: center;
+}
+.page-features-item {
+    float: left;
+    width: 233px;
+    border-right: 1px solid #dcdcdc;
+}
+.page-features-item:first-child {
+    border-left: 1px solid #dcdcdc;
+}
+.page-features-item img {
+    width: 200px;
+    height: 133px;
+    padding: 0 15px;
+}
+.page-features-item h3 {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+    font-family: 'bree_serifregular', Arial, sans-serif;
+    font-size: 20px;
+    color: #2190c1;
+    line-height: 20px;
+}
+.page-features-item p {
+    margin: 0;
+    padding: 0 15px;
+    padding-bottom: 25px;
+    font-size: 13px;
+    line-height: 18px;
+}
+.page-our-team {
+    margin-bottom: 105px;
+}
+.page-our-team h2 {
+    padding-bottom: 15px;
+    font-family: 'bebas_neueregular', Arial, sans-serif;
+    font-size: 50px;
+    line-height: 50px;
+    color: #2190c1;
+    text-align: center;
+}
+.our-team-item {
+    width: 378px;
+    margin: 35px;
+    border: 1px solid #d3d3d3;
+}
+.our-team-item:nth-child(1n) {
+    float: left;
+    box-shadow: -10px -10px 0 0 #d3d3d3;
+}
+.our-team-item:nth-child(2n) {
+    float: right;
+    box-shadow: 10px -10px 0 0 #d3d3d3;
+}

@@ -1080,6 +1080,7 @@ body {
     width: 378px;
     margin: 35px;
     border: 1px solid #d3d3d3;
+    background: #fff;
 }
 .our-team-item:nth-child(1n) {
     float: left;
@@ -1088,4 +1089,63 @@ body {
 .our-team-item:nth-child(2n) {
     float: right;
     box-shadow: 10px -10px 0 0 #d3d3d3;
+}
+.team-item-title img {
+    float: left;
+    padding: 15px;
+} 
+.team-item-title p {
+    float: right;
+    width: 200px;
+    margin: 0;
+    margin-right: 10px;
+    padding: 0;
+}
+.team-item-title .status {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'bree_serifregular', Arial, sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+}
+.team-item-title .name {
+    font-family: 'bebas_neueregular', Arial, sans-serif;
+    font-size: 32px;
+    color: #2190c1;
+    text-align: center;
+    line-height: 34px;
+}
+.team-item-title .mail {
+    font-size: 13px;
+    text-align: center;
+}
+.team-item-title .icon {
+    margin: 15px 0;
+    margin-right: 10px;
+    text-align: center;
+}
+.team-item-title .icon i {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+    border-radius: 3px;
+}
+.team-item-title .icon i:nth-child(1) {
+    background: #00a1e4;
+}
+.team-item-title .icon i:nth-child(2) {
+    background: #29aecb;
+}
+.team-item-title .icon i:nth-child(3) {
+    background: #0481d9;
+}
+.team-item-title .icon i:nth-child(4) {
+    background: #f7941d;
+}
+.our-team-item > p {
+    margin: 0;
+    padding: 0 15px;
+    padding-bottom: 25px;
 }
